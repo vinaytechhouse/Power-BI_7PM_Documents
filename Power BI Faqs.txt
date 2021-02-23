@@ -1,0 +1,2 @@
+What is Z-Order in Power BI?
+You can manage the front-to-back order of visuals in a report, often referred to as the z-order of elements. This feature lets you overlap visuals in any way you want, then adjust the front-to-back order of each. 
