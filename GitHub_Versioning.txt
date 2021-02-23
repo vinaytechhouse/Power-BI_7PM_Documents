@@ -1,0 +1,56 @@
+Versioning
+
+Maintaining multiple copies of the same document with multiple changes is called as versioning.
+In real time all organizations implement this as part of documents storing and keep tracking of changes.
+
+Micorosft applications frequently used versioning tools
+
+a) TFS [Team Foundation Server]
+
+b) Git Hub
+
+c) VSS [Visual Source Safe]
+
+
+Third Party
+
+PVCS 
+SubVersion
+etc...
+
+
+GitHub
+======
+Source code build, control and version maintenance service.
+
+Here we create a repository and all documents store under repository master branch.
+Versioning maintained in that branch only.
+
+In case any doc change required, create a child branch, take documents, download them.
+Work on  the documents, place in the child branch.
+
+Later merge the child branch documents with parent branch [master].
+
+Remove the child branch after operations.
+
+Now the master havig multiple versions for the documents in the repository.
+
+
+
+
+GitHub Versioning
+
+We create repository which is like a folder, it has main branch with all the documents.
+This main branch only store history of changes.
+ 
+
+a) If you are confident about document you are uploading, directly do it in the master.
+    So that that document versioning maintained.
+   Incase you are not confident / most of the IT companies not allowing directly to maintain versioning. So, we need to follow the below process.
+ 1. Create a branch called Test
+ 2. Upload the modified document
+ 3. Create a pull request
+ 4. Merge the pulled request
+ 5. Automatically Test branch will be deleted.
+
+Note: This versioning is close to TFS [Team Foundation Server] versioning.
